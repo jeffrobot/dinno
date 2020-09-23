@@ -1,0 +1,27 @@
+<head>
+    <title>치매 저작도구</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper" style="background-color: grey;">
+          <a href="/" class="brand-logo">웹 저작도구</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">로그인</a></li>
+            <li><a href="">회원가입</a></li>
+            <li><a href="/post/new">업로드</a></li>
+            <li><a href="/post/search">찾기</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      {% block content %}
+      {% endblock %}
+</body>
